@@ -1,0 +1,39 @@
+{
+  "name": "apex-publish-static-files",
+  "version": "2.1.0",
+  "author": "Vincent Morneau",
+  "description": "Allows to publish an entire local directory to Oracle APEX Shared Components.",
+  "license": "MIT",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "oracle",
+    "apex",
+    "orclapex",
+    "css",
+    "javascript",
+    "front-end",
+    "web"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/minia68/apex-publish-static-files.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vincentmorneau/apex-publish-static-files/issues"
+  },
+  "devDependencies": {
+    "ava": "^6.2.0"
+  },
+  "xo": {
+    "ignores": [
+      "lib/distUpload.js"
+    ]
+  },
+  "dependencies": {
+    "globby": "^14.0.2",
+    "mime-types": "^2.1.35",
+    "oracledb": "^6.7.1"
+  }
+}
